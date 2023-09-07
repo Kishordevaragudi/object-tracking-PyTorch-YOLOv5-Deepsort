@@ -22,14 +22,23 @@ Applications: DeepSORT is applied in real-time scenarios such as video surveilla
 
 # How to Run the project 
 1.Clone the respo : 
-git clone
+
+#### git clone https://github.com/Kishordevaragudi/object-tracking-PyTorch-YOLOv5-Deepsort.git
+
 2.create virtual environment in local machine 
-conda create -p venv python==3.7 -y
+
+#### conda create -p venv python==3.7 -y
+
 3.Install python packages
-pip install -r requirements.txt
-4. Run the command
-python detect_sort.py --weights yolov5s.pt  --img 640  --source pedestrian.mp4
+
+#### pip install -r requirements.txt
+
+4.Run the command
+ 
+#### python detect_sort.py --weights yolov5s.pt  --img 640  --source pedestrian.mp4
+
 5.For web camera detection 
-python detect_sort.py --weights yolov5s.pt  --img 640  --source 0
+
+#### python detect_sort.py --weights yolov5s.pt  --img 640  --source 0
 
 
